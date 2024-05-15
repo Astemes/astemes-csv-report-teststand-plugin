@@ -1,0 +1,6 @@
+
+*.xml
+/builds
+/ProcessingStage
+log-Package Build Specification.txt
+source/Excel Report Plugin.lvlps
