@@ -4,11 +4,15 @@ The purpose of this plugin is to generate a simple csv file containing test resu
 The feature set is currently limited to handle most common step types, but can easily be extended.
 This plugin is meant as a tool for quickly and easily sharing results during development and integration of a tester, as the format is more portable and easier to read than the default markup language based reports.
 
-# Installation
+## Acknowledgements
+The development of this plugin was greatly supported by the [excellent presentation](https://www.youtube.com/watch?v=qeR_4Gq0Ais&t=1105s) given during GLA summit by Sam Roundy and Jason Orr.
+Having a simple and portable report format is of high utility while communicating with stake holders during tester development.
+
+## Installation
 The reporting plugin consits of a sequence file and a packed project library which are installed into the TestStand Public directory.
 The easiest way to install the plugin is to use the latest package published under [releases](https://github.com/Astemes/astemes-csv-report-teststand-plugin/releases).
 
-# Basic Useage
+## Basic Useage
 The plugin is enabled through the standard Configure -> Result Processing.. menu within the TestStand Sequence Editor.
 Enable the pluging after adding it to the list as shown below.
 
@@ -25,3 +29,7 @@ If excel do not automatically use the first row as column headers, this can be c
 
 The result should be similar to below.
 ![image](https://github.com/Astemes/astemes-csv-report-teststand-plugin/assets/40723774/632e3724-6e12-4fc7-b81a-b6c4bbba021e)
+
+## Contribute
+Feel free to make pull requests to fix limitations or resolve issues.
+Please note that changes to the LabVIEW code modules will require test coverage to get accepted.
