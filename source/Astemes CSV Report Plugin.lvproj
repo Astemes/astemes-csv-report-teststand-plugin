@@ -121,10 +121,10 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="TestStand CSV Report Plugin" Type="Packed Library">
+			<Item Name="Code Modules" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{57D3AC45-F226-4BDA-87C6-727718D596C4}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">TestStand CSV Report Plugin</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Code Modules</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/TestStand Public/Components/Models/ModelPlugins/Astemes_CSVReportGenerator</Property>
@@ -141,7 +141,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/TestStand Public/Components/Models/ModelPlugins/Astemes_CSVReportGenerator</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{74F7EBC2-367D-4E90-B613-86542B1511BB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0BF46CFA-3FAF-4523-B47A-988BBCD7F27B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Astemes_CSVReportPlugin.lvlib</Property>
@@ -153,10 +153,10 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Astemes</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">TestStand CSV Report Plugin</Property>
-				<Property Name="TgtF_internalName" Type="Str">TestStand CSV Report Plugin</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Code Modules</Property>
+				<Property Name="TgtF_internalName" Type="Str">Code Modules</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Astemes</Property>
-				<Property Name="TgtF_productName" Type="Str">TestStand CSV Report Plugin</Property>
+				<Property Name="TgtF_productName" Type="Str">Code Modules</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{3385C98E-2A2A-41D9-9D67-CE3AAFF5799E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">astemes-csv-report-plugin.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
