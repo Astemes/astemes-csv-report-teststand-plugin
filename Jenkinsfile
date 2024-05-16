@@ -3,8 +3,8 @@ pipeline {
         label 'LV2020'
     }
 	environment{
-		PROJECT_TITLE = "Astemes LUnit"
-		REPO_URL = "https://github.com/astemes/astemes-lunit"
+		PROJECT_TITLE = "Astemes CSV Report TestStand Plugin"
+		REPO_URL = "https://github.com/astemes/astemes-csv-report-teststand-plugin"
 		AUTHOR = "Anton Sundqvist"
 		INITIAL_RELEASE = 2021
 		LV_PROJECT_PATH = "source\\Astemes CSV Report Plugin.lvproj"
