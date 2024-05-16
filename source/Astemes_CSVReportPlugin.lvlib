@@ -5,10 +5,12 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="TSContext Configuration.lvclass" Type="LVClass" URL="../Astemes_CSVReportGenerator/TSContext Configuration/TSContext Configuration.lvclass">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Configuration.lvclass" Type="LVClass" URL="../Configuration/Configuration.lvclass"/>
 		<Item Name="TestStand Result Handler.lvclass" Type="LVClass" URL="../Test Result Handler/TestStand Result Handler.lvclass"/>
-		<Item Name="TSContext Configuration.lvclass" Type="LVClass" URL="../Astemes_CSVReportGenerator/TSContext Configuration/TSContext Configuration.lvclass"/>
 	</Item>
 	<Item Name="Options Dialog.lvlib" Type="Library" URL="../Options Dialog/Options Dialog.lvlib"/>
 	<Item Name="Report Generator.lvlib" Type="Library" URL="../Report Generator/Report Generator.lvlib"/>
