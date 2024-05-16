@@ -54,7 +54,6 @@ pipeline {
 				GITHUB_TOKEN = credentials('github-token')
 			}
 			steps{
-				deployGithubPages()
 				deployGithubRelease "${REPO_URL}", "${COMMIT_TAG}", "${NI_PKG}"
 			}
 		}
