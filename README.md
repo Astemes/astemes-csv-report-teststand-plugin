@@ -1,12 +1,10 @@
-# astemes-excel-report-teststand-plugin
-Simple csv report plugin for NI TestStand.
-The purpose of this plugin is to generate a simple csv file containing test results when running an NI TestStand sequence.
+# Simple csv report plugin for NI TestStand.
+The purpose of this plugin is to generate a csv-formated plain text file containing test results when running an NI TestStand sequence.
 The feature set is currently limited to handle most common step types, but can easily be extended.
 This plugin is meant as a tool for quickly and easily sharing results during development and integration of a tester, as the format is more portable and easier to read than the default markup language based reports.
 
 ## Acknowledgements
 The development of this plugin was greatly supported by the [excellent presentation](https://www.youtube.com/watch?v=qeR_4Gq0Ais&t=1105s) given during GLA summit by Sam Roundy and Jason Orr.
-Having a simple and portable report format is of high utility while communicating with stake holders during tester development.
 
 ## Installation
 The reporting plugin consits of a sequence file and a packed project library which are installed into the TestStand Public directory.
@@ -21,7 +19,7 @@ Enable the pluging after adding it to the list as shown below.
 Now, when you run a test sequence, a report file is generated to the configured directory (defaults to c:\reports).
 The report directory is configured from the plugin options in the Result Processing configuration window.
 
-Now you can easily view the csv in *e.g.* Excel using the load from csv option.
+You can easily view the csv in *e.g.* Excel using the load from csv option.
 ![image](https://github.com/Astemes/astemes-csv-report-teststand-plugin/assets/40723774/4a7d17ca-fc39-4432-a35a-a1ee82a3b2d5)
 
 If excel do not automatically use the first row as column headers, this can be configured from the Transform dialog.
