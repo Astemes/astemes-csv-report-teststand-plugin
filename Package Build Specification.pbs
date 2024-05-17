@@ -328,14 +328,13 @@
             <Architecture>windows_all</Architecture>
             <AutoIncrementVersion>Build</AutoIncrementVersion>
             <BuildStatus z:Id="i46">
-                <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>astemes-teststand-csv-report-plugin_1.0.0.19_windows_all.nipkg</FileName>
-                <Version>1.0.0.19</Version>
+                <FileName />
+                <Version>none</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes>
                 <CustomExecute z:Id="i47">
-                    <Arguments>/c ""%NIPkgMgrTempUnique%\Astemes_CSVReportGenerator\install_script.bat" %NIPkgMgrTempUnique%\Astemes_CSVReportGenerator"</Arguments>
+                    <Arguments>/k ""%NIPkgMgrTempUnique%\Astemes_CSVReportGenerator\install_script.bat" %NIPkgMgrTempUnique%\Astemes_CSVReportGenerator"</Arguments>
                     <ExeName>cmd.exe</ExeName>
                     <HideConsoleWindow>false</HideConsoleWindow>
                     <IgnoreErrors>false</IgnoreErrors>
