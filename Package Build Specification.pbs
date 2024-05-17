@@ -3,320 +3,100 @@
     <SourceItems>
         <SourceItem z:Id="i2">
             <PluginConfigurationOptions />
-            <RelativePath>[TestStand Public Documents]\Components\Models\ModelPlugins\Astemes_CSVReportGenerator\astemes-csv-report-plugin.lvlibp</RelativePath>
+            <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins\Astemes_CSVReportGenerator\astemes-csv-report-plugin.lvlibp</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i3">
             <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\Astemes TestStand CSV Report Plugin\control\control</RelativePath>
+            <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins\install_script.bat</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i4">
             <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\Astemes TestStand CSV Report Plugin\data\instructions</RelativePath>
-            <DependentItems />
+            <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins\Astemes_CSVReportGenerator</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i2" />
+            </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i5">
             <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\Astemes TestStand CSV Report Plugin\data\NIPkgMgrTempUnique\Astemes_CSVReportGenerator\Astemes_CSVReportGenerator\astemes-csv-report-plugin.lvlibp</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i6">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\Astemes TestStand CSV Report Plugin\data\NIPkgMgrTempUnique\Astemes_CSVReportGenerator\install_script.bat</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i7">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\Astemes TestStand CSV Report Plugin\debian-binary</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i8">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.10_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i9">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.11_windows_all.nipkg</RelativePath>
-            <DependentItems />
+            <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins\Astemes_CSVReportGenerator.seq</RelativePath>
+            <DependentItems>
+                <SourceItem z:Id="i6">
+                    <PluginConfigurationOptions />
+                    <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins\Astemes_CSVReportGenerator.seq\astemes-csv-report-plugin.lvlibp\Options Dialog\Options Dialog.vi</RelativePath>
+                    <DependentItems />
+                    <IsDiscoverable>true</IsDiscoverable>
+                </SourceItem>
+                <SourceItem z:Id="i7">
+                    <PluginConfigurationOptions />
+                    <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins\Astemes_CSVReportGenerator.seq\astemes-csv-report-plugin.lvlibp\Report Generator\New Report.vi</RelativePath>
+                    <DependentItems />
+                    <IsDiscoverable>true</IsDiscoverable>
+                </SourceItem>
+                <SourceItem z:Id="i8">
+                    <PluginConfigurationOptions />
+                    <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins\Astemes_CSVReportGenerator.seq\astemes-csv-report-plugin.lvlibp\Report Generator\Save Report.vi</RelativePath>
+                    <DependentItems />
+                    <IsDiscoverable>true</IsDiscoverable>
+                </SourceItem>
+                <SourceItem z:Id="i9">
+                    <PluginConfigurationOptions />
+                    <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins\Astemes_CSVReportGenerator.seq\astemes-csv-report-plugin.lvlibp\Report Generator\Add Result.vi</RelativePath>
+                    <DependentItems />
+                    <IsDiscoverable>true</IsDiscoverable>
+                </SourceItem>
+            </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
         <SourceItem z:Id="i10">
             <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.12_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i11">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.13_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i12">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.14_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i13">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.15_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i14">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.16_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i15">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.17_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i16">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.18_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i17">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.4_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i18">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.5_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i19">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.6_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i20">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.7_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i21">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.8_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i22">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\astemes-teststand-csv-report-plugin_1.0.0.9_windows_all.nipkg</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i23">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins\Astemes_CSVReportGenerator\astemes-csv-report-plugin.lvlibp</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i24">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins\install_script.bat</RelativePath>
-            <DependentItems />
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i25">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\Astemes TestStand CSV Report Plugin\control</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i3" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i26">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\Astemes TestStand CSV Report Plugin\data\NIPkgMgrTempUnique\Astemes_CSVReportGenerator\Astemes_CSVReportGenerator</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i5" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i27">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\Astemes TestStand CSV Report Plugin\data\NIPkgMgrTempUnique\Astemes_CSVReportGenerator\Astemes_CSVReportGenerator.seq</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i2" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i28">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins\Astemes_CSVReportGenerator</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i23" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i29">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins\Astemes_CSVReportGenerator.seq</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i2" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i30">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\Astemes TestStand CSV Report Plugin\data\NIPkgMgrTempUnique\Astemes_CSVReportGenerator</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i27" />
-                <SourceItem z:Ref="i6" />
-                <SourceItem z:Ref="i26" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i31">
-            <PluginConfigurationOptions />
             <RelativePath>builds\TestStand Public\Components\Models\ModelPlugins</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i28" />
-                <SourceItem z:Ref="i24" />
-                <SourceItem z:Ref="i29" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i32">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\Astemes TestStand CSV Report Plugin\data\NIPkgMgrTempUnique</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i30" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i33">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\TestStand Public\Components\Models</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i31" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i34">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\TestStand Public\Components</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i33" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i35">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\Astemes TestStand CSV Report Plugin\data</RelativePath>
-            <DependentItems>
+                <SourceItem z:Ref="i5" />
+                <SourceItem z:Ref="i3" />
                 <SourceItem z:Ref="i4" />
-                <SourceItem z:Ref="i32" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i36">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\TestStand Public</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i34" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i37">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages\Astemes TestStand CSV Report Plugin</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i7" />
-                <SourceItem z:Ref="i25" />
-                <SourceItem z:Ref="i35" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i38">
-            <PluginConfigurationOptions />
-            <RelativePath>builds\Packages</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i17" />
-                <SourceItem z:Ref="i18" />
-                <SourceItem z:Ref="i19" />
-                <SourceItem z:Ref="i20" />
-                <SourceItem z:Ref="i21" />
-                <SourceItem z:Ref="i22" />
-                <SourceItem z:Ref="i8" />
-                <SourceItem z:Ref="i9" />
-                <SourceItem z:Ref="i10" />
-                <SourceItem z:Ref="i11" />
-                <SourceItem z:Ref="i12" />
-                <SourceItem z:Ref="i13" />
-                <SourceItem z:Ref="i37" />
-                <SourceItem z:Ref="i14" />
-                <SourceItem z:Ref="i15" />
-                <SourceItem z:Ref="i16" />
-            </DependentItems>
-            <IsDiscoverable>true</IsDiscoverable>
-        </SourceItem>
-        <SourceItem z:Id="i39">
-            <PluginConfigurationOptions />
-            <RelativePath>builds</RelativePath>
-            <DependentItems>
-                <SourceItem z:Ref="i36" />
-                <SourceItem z:Ref="i38" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
     </SourceItems>
     <InputSourceItems>
-        <SourceItem z:Ref="i39" />
+        <SourceItem z:Ref="i10" />
     </InputSourceItems>
     <Distributions>
-        <Distribution z:Id="i40" i:type="Package">
+        <Distribution z:Id="i11" i:type="Package">
             <DistributionItems>
-                <DistributionItem z:Id="i41" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Temp]\Astemes_CSVReportGenerator\Astemes_CSVReportGenerator.seq</DestinationRelativePath>
-                    <Name>Astemes_CSVReportGenerator.seq</Name>
-                    <SourceItem z:Ref="i29" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>false</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i42" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i12" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Temp]\Astemes_CSVReportGenerator\Astemes_CSVReportGenerator</DestinationRelativePath>
                     <Name>Astemes_CSVReportGenerator</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i43" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Temp]\Astemes_CSVReportGenerator\Astemes_CSVReportGenerator\astemes-csv-report-plugin.lvlibp</DestinationRelativePath>
-                    <Name>astemes-csv-report-plugin.lvlibp</Name>
-                    <SourceItem z:Ref="i23" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i44" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i13" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Temp]\Astemes_CSVReportGenerator</DestinationRelativePath>
                     <Name>Astemes_CSVReportGenerator</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i45" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i14" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Temp]\Astemes_CSVReportGenerator\Astemes_CSVReportGenerator.seq</DestinationRelativePath>
+                    <Name>Astemes_CSVReportGenerator.seq</Name>
+                    <SourceItem z:Ref="i5" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i15" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Temp]\Astemes_CSVReportGenerator\install_script.bat</DestinationRelativePath>
                     <Name>install_script.bat</Name>
-                    <SourceItem z:Ref="i24" />
+                    <SourceItem z:Ref="i3" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i16" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Temp]\Astemes_CSVReportGenerator\Astemes_CSVReportGenerator\astemes-csv-report-plugin.lvlibp</DestinationRelativePath>
+                    <Name>astemes-csv-report-plugin.lvlibp</Name>
+                    <SourceItem z:Ref="i2" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
@@ -327,13 +107,14 @@
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_all</Architecture>
             <AutoIncrementVersion>Build</AutoIncrementVersion>
-            <BuildStatus z:Id="i46">
-                <FileName />
-                <Version>none</Version>
+            <BuildStatus z:Id="i17">
+                <BuildEverSuccessful>true</BuildEverSuccessful>
+                <FileName>astemes-teststand-csv-report-plugin_0.1.5.1_windows_all.nipkg</FileName>
+                <Version>0.1.5.1</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes>
-                <CustomExecute z:Id="i47">
+                <CustomExecute z:Id="i18">
                     <Arguments>/k ""%NIPkgMgrTempUnique%\Astemes_CSVReportGenerator\install_script.bat" %NIPkgMgrTempUnique%\Astemes_CSVReportGenerator"</Arguments>
                     <ExeName>cmd.exe</ExeName>
                     <HideConsoleWindow>false</HideConsoleWindow>
@@ -345,7 +126,7 @@
                 </CustomExecute>
             </CustomExecutes>
             <DisplayName>Astemes TestStand CSV Report Plugin</DisplayName>
-            <FileName>astemes-teststand-csv-report-plugin_1.0.0.20_windows_all.nipkg</FileName>
+            <FileName>astemes-teststand-csv-report-plugin_0.1.5.2_windows_all.nipkg</FileName>
             <MaintainerEmail>support@astemes.com</MaintainerEmail>
             <MaintainerName>Astemes Ab</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
@@ -354,14 +135,14 @@
             <ProductName>MyProduct</ProductName>
             <Section>Add-Ons</Section>
             <Synopsis>astemes-teststand-csv-report-plugin</Synopsis>
-            <Version>1.0.0.20</Version>
+            <Version>0.1.5.2</Version>
         </Distribution>
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i48">
+        <DistributionGroup z:Id="i19">
             <Distributions>
-                <Distribution z:Ref="i40" />
+                <Distribution z:Ref="i11" />
             </Distributions>
             <Name>Distribution Group</Name>
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
@@ -370,59 +151,59 @@
     </DistributionGroups>
     <TestStandMode>true</TestStandMode>
     <PluginConfigurationOptions>
-        <ConfigurationOption z:Id="i49">
-            <Definition z:Id="i50">
+        <ConfigurationOption z:Id="i20">
+            <Definition z:Id="i21">
                 <Description i:nil="true" />
                 <Name>TestStand Options</Name>
             </Definition>
             <HasDefaultValues>true</HasDefaultValues>
-            <Value z:Id="i51" i:type="DialogConfigurationOptionValue">
+            <Value z:Id="i22" i:type="DialogConfigurationOptionValue">
                 <Values>
-                    <ConfigurationOptionValue z:Id="i52" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i53" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i54" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i55" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i23" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i24" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i25" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i26" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i56" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i27" i:type="StringConfigurationOptionValue">
                         <Value>SupportVIs</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i57" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i58" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i28" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i29" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i59" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i60" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i61" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i62" i:type="BooleanConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i30" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i31" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i32" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i33" i:type="BooleanConfigurationOptionValue">
                         <Value>true</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i63" i:type="BooleanConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i34" i:type="BooleanConfigurationOptionValue">
                         <Value>true</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i64" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i65" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i66" i:type="PathConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i35" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i36" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i37" i:type="PathConfigurationOptionValue">
                         <RelativePath />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i67" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i68" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i69" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i38" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i39" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i40" i:type="StringConfigurationOptionValue">
                         <Value>[BootVolume]</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i70" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i41" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i71" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i42" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i72" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i43" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i73" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i74" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i75" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i76" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i44" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i45" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i46" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i47" i:type="BooleanConfigurationOptionValue" />
                 </Values>
             </Value>
         </ConfigurationOption>
