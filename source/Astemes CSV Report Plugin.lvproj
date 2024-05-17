@@ -18,6 +18,7 @@
 		</Item>
 		<Item Name="Astemes_CSVReportGenerator.seq" Type="Document" URL="../Astemes_CSVReportGenerator.seq"/>
 		<Item Name="Astemes_CSVReportPlugin.lvlib" Type="Library" URL="../Astemes_CSVReportPlugin.lvlib"/>
+		<Item Name="install_script.bat" Type="Document" URL="../install_script.bat"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -186,12 +187,15 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/TestStand Public/Components/Models/ModelPlugins/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{74F7EBC2-367D-4E90-B613-86542B1511BB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2BE371E9-830A-40AB-87EE-6069B21D1FC9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Astemes_CSVReportGenerator.seq</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/install_script.bat</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>
