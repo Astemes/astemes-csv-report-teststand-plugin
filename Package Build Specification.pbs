@@ -91,14 +91,14 @@
                     <Name>install_script.bat</Name>
                     <SourceItem z:Ref="i3" />
                     <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
                 </DistributionItem>
                 <DistributionItem z:Id="i16" i:type="DistributionFileItem">
                     <DestinationRelativePath>[Temp]\Astemes_CSVReportGenerator\Astemes_CSVReportGenerator\astemes-csv-report-plugin.lvlibp</DestinationRelativePath>
                     <Name>astemes-csv-report-plugin.lvlibp</Name>
                     <SourceItem z:Ref="i2" />
                     <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
                 </DistributionItem>
             </DistributionItems>
             <Name>Astemes TestStand CSV Report Plugin</Name>
