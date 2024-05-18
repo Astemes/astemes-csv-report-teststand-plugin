@@ -6,15 +6,22 @@ This plugin is meant as a tool for quickly and easily sharing results during dev
 ## Acknowledgements
 The development of this plugin was greatly supported by the [excellent presentation](https://www.youtube.com/watch?v=qeR_4Gq0Ais&t=1105s) given during GLA summit by Sam Roundy and Jason Orr.
 
-## Installation
-The reporting plugin consits of a sequence file and a packed project library which are installed into the TestStand Public directory.
+## Installation and Requirements
+The reporting plugin consits of a sequence file and a LabVIEW packed project library which are installed into the TestStand Public directory.
+To use it, you will need either LabVIEW Run-Time or Development System 2020 or later.
+
+### 32-bit 
 The easiest way to install the plugin is to use the latest package published under [releases](https://github.com/Astemes/astemes-csv-report-teststand-plugin/releases).
+
+### 64-bit
+Due to current limitations on our build server, you will have to compile the plugin yourself for a 64-bit system.
+This is done by cloning this repository, open the LabVIEW project in 64-bit version of LabVIEW, execute both build specifications and you get an install package.
+Please note that package versioning will be off, if you not update it manually befor building the package.
 
 ## Basic Useage
 The plugin is enabled through the standard Configure -> Result Processing.. menu within the TestStand Sequence Editor.
-Enable the pluging after adding it to the list as shown below.
-
-![image](https://github.com/Astemes/astemes-csv-report-teststand-plugin/assets/40723774/3f91fec9-1811-470d-a98e-9f7fd52b28b0)
+Enable the pluging as shown below.
+![image](https://github.com/Astemes/astemes-csv-report-teststand-plugin/assets/40723774/1ff06461-44f7-4fe6-9c6c-a6ba803da808)
 
 Now, when you run a test sequence, a report file is generated to the configured directory (defaults to c:\reports).
 The report directory is configured from the plugin options in the Result Processing configuration window.
