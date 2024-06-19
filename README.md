@@ -36,6 +36,10 @@ If excel do not automatically use the first row as column headers, this can be c
 The result should be similar to below.
 ![image](https://github.com/Astemes/astemes-csv-report-teststand-plugin/assets/40723774/632e3724-6e12-4fc7-b81a-b6c4bbba021e)
 
+## Implementation Details
+The plugin is developed using LabVIEW for the code modules and the logic of creating the csv file is completely handled by LabVIEW, which is simply fed data by the TestStand plugin.
+This is to keep the TestStand sequence as simple and declarative as possible and maintain the logic in LabVIEW where it is easier to verify and test.
+
 ## Contribute
 Feel free to make pull requests to fix limitations or resolve issues.
 Please note that changes to the LabVIEW code modules will require test coverage to get accepted.
