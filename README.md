@@ -17,7 +17,7 @@ The easiest way to install the plugin is to use the latest package published und
 ### 64-bit
 Due to current limitations on our build server, you will have to compile the plugin yourself for a 64-bit system.
 This is done by cloning this repository, open the LabVIEW project in 64-bit version of LabVIEW, execute both build specifications and you get an install package.
-Please note that package versioning will be off, if you not update it manually befor building the package.
+Please note that package versioning will be off, if you not update it manually before building the package.
 
 ## Basic Useage
 The plugin is enabled through the standard Configure -> Result Processing.. menu within the TestStand Sequence Editor.
